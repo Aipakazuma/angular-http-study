@@ -4,20 +4,22 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
+import { ObservableTestComponent } from './observable-test/observable-test.component';
 // import {UsingAngularHttpComponent} from './using-angular-http/using-angular-http.component';
-import {YouTubeSearchComponent} from './youtube-search-component/youtube-search.component';
-import {SearchBoxComponent} from './youtube-search-component/search-box.component';
-import {SearchResultComponent} from './youtube-search-component/search-results.component';
-import {youTubeServiceInjectableArray} from './youtube-search-component/youtube-service-injectables';
-import {YouTubeService} from './youtube-search-component/youtube-service';
+// import {YouTubeSearchComponent} from './youtube-search-component/youtube-search.component';
+// import {SearchBoxComponent} from './youtube-search-component/search-box.component';
+// import {SearchResultComponent} from './youtube-search-component/search-results.component';
+// import {youTubeServiceInjectableArray} from './youtube-search-component/youtube-service-injectables';
+// import {YouTubeService} from './youtube-search-component/youtube-service';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ObservableTestComponent,
     // UsingAngularHttpComponent
-    YouTubeSearchComponent,
-    SearchBoxComponent,
-    SearchResultComponent
+    // YouTubeSearchComponent,
+    // SearchBoxComponent,
+    // SearchResultComponent
   ],
   imports: [
     BrowserModule,
@@ -25,8 +27,8 @@ import {YouTubeService} from './youtube-search-component/youtube-service';
     HttpModule
   ],
   providers: [
-    {provide: YouTubeService, useClass: YouTubeService},
-    youTubeServiceInjectableArray
+    // {provide: YouTubeService, useClass: YouTubeService},
+    // youTubeServiceInjectableArray
   ],
   bootstrap: [AppComponent]
 })

@@ -20,3 +20,17 @@ Angular HTTP 勉強リポジトリ
     * 実行する
 * indicate
     * 示す
+* mediator
+    * メディエイター？
+* likewise
+    * 同様に
+* corresponding
+    * 対応する
+* straightforward
+    * 簡単
+* discard
+    * 破棄する
+* intimidating
+    * 威圧する
+* surface
+    * 表面
